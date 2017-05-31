@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+
+ }
+  nav{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+
+ }
+ ul{
+ 	display: flex;
+ 	position: fixed;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-direction: row;
+ 	margin: 50px;
+ }
+
+ li{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin: 20px;
+ 	font-size: 0.94em;
+ 	color: #00416d;
+ 	font-style: normal;
+ 	text-align: left;
+ 	line-height: 0.8em;
+ 	letter-spacing: 0em;
+}
+
+.video{
+
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 26%;
+	width: 62%;
+	left: 25%;
+
+}
+
+ header{
+ 	position: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	width: 100%;
+ 	top: 0;
+}	
+
