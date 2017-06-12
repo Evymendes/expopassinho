@@ -2,21 +2,21 @@ body{
 	margin: 0;
 	padding: 0;
  }
-  nav{
+ 
+ nav{
  	display: flex;
  	justify-content: center;
  	align-items: center;
  	position: fixed;
- 	left: 20%; 
+ 	left: 27%; 
  	z-index: 3;
  }
+
  ul{
  	display: flex;
  	justify-content: center;
  	align-items: center;
- 	flex-direction: row;
- /*	margin: 80px;*/
- 		
+ 	flex-direction: row; 		
  }
 
  li{
@@ -56,11 +56,9 @@ body{
  	top: 0;
 }
 .logofixa {	
-	position: relative;
+	margin: 3%;
 	width: 25%;
-	height: 100px;
-	left: 8.93%;
-	
+	height: 100px;	
 }
 
 h2{
@@ -74,21 +72,17 @@ h2{
 	text-align: left;
 	line-height: 1.61em;
 	letter-spacing: 0em;
+	padding: -8%;
 }
 
 .p1 {
 	display: flex;
-	justify-content: center;
-	align-items: center;	
-	position: relative;
+	justify-content: flex-start;
+	align-items: flex-start;
 	font-size: 1.25em;
 	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	width: 39.76%;
-	margin-left: 32.77%;
+	width: 40%;
+	margin-left: 33%;
 	
 }
 
@@ -99,7 +93,7 @@ h3{
 	text-align: left;
 	line-height: 1.34em;
 	letter-spacing: 0em;
-	position: relative;
+	position: absolute;
 	left: 16.25%;
 	
 }
@@ -115,8 +109,8 @@ h3{
 	line-height: 1.07em;
 	letter-spacing: 0em;
 	left: 16.25%;
-	width: 31.77%;
-
+	width: 25%;
+	top: 80px; 
 }
 
 .apresentacao{
@@ -128,47 +122,42 @@ h3{
 	letter-spacing: 0em;	
 	left: 52%;
 	top: -320px;
+	position: relative;
 	width: 31.77%;
-}
-
-.video_apresentacao{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	font-size: 1.25em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	left: 51.50%;
-	top: -316px;
-	width: 31.77%;
-}
-
-.video_apresentacao2{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	font-size: 1.25em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	left: 51%;
-	top: -290px;
-	width: 32.06%;
-}
-.fundo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: relative;
-	width: 100%;
-	height:100%;
 	top: -250px;
 }
+
+.video-apresentacao{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	font-size: 1.25em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	left: 48%;
+	top: -255px;
+	width: 25%;
+}
+
+
+.video-apresentacao2{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	font-size: 1.25em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	left: 48%;
+	top: -200px;
+	width: 25%;
+}
+
 .contato{
 	font-size: 1.88em;
 	color: #ffffff;
@@ -181,11 +170,17 @@ h3{
 	top: -730px;
 }
 .footer{
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 245px;
 	background-color: black;
-	left: 68%;
-	top: 500px;
+	opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+	position: relative;
+	border-radius: 25px;
+	left: 50%;
+	top: 50px;
+	margin: 5px;
 }
 
 .email{
@@ -197,18 +192,21 @@ h3{
 	letter-spacing: 0em;
 	position: relative;
 	left: 68%;
-	top: -765px;
+	top: -50px;
 }
 
 .logo2{
 	width: 50px;
 	left: 50px;
-	border-radius: 50px;
+	border-radius: 50%;
 	position: relative;
 	left: 68%;
-	top: -765px;
+	top: -50px;
 	margin: 5px;
 }
-
+footer img{
+	width: 100%;
+	height: 100%;
+}
 
 
