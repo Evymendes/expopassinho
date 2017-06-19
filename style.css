@@ -8,8 +8,9 @@ body{
  	justify-content: center;
  	align-items: center;
  	position: fixed;
- 	left: 27%; 
+ 	left: 30%; 
  	z-index: 3;
+ 	top: 25px;
  }
 
  ul{
@@ -20,12 +21,12 @@ body{
  }
 
  li{
- 	width: 130px;
- 	height: 30px;
+ 	width: 142px;
+ 	height: 27px;
  	display: flex;
  	justify-content: center;
  	align-items: center;
- 	margin: 20px;
+ 	margin: 3%;
  	font-size: 0.94em;
  	color: #00416d;
  	font-style: normal;
@@ -44,8 +45,8 @@ body{
 	align-items: center;
 	position: absolute;
 	top: 26%;
-	width: 62%;
-	left: 25%;
+	width: 62.37%;
+	left: 16%;
 	z-index: 2;
 }
 
@@ -55,10 +56,13 @@ body{
  	align-items: center;
  	top: 0;
 }
+
 .logofixa {	
 	margin: 3%;
-	width: 25%;
-	height: 100px;	
+	width: 28%;
+	height: 110px;	
+	position: relative;
+	left: 10%;
 }
 
 h2{
@@ -72,18 +76,22 @@ h2{
 	text-align: left;
 	line-height: 1.61em;
 	letter-spacing: 0em;
-	padding: -8%;
+	position: relative;
+	top: -60px;
 }
 
-.p1 {
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
+.texto {
 	font-size: 1.25em;
 	color: #95989a;
-	width: 40%;
-	margin-left: 33%;
-	
+	width: 39.76%;
+	margin-left: 32.77%;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;	
+}
+.ação{
+	position: relative;
 }
 
 h3{
@@ -94,8 +102,8 @@ h3{
 	line-height: 1.34em;
 	letter-spacing: 0em;
 	position: absolute;
-	left: 16.25%;
-	
+	top: 20%;
+	left: 23%;	
 }
 
 .video-ensaio{
@@ -108,9 +116,9 @@ h3{
 	text-align: left;
 	line-height: 1.07em;
 	letter-spacing: 0em;
-	left: 16.25%;
+	left: 23%;
 	width: 25%;
-	top: 80px; 
+	top: -2px; 
 }
 
 .apresentacao{
@@ -124,7 +132,7 @@ h3{
 	top: -320px;
 	position: relative;
 	width: 31.77%;
-	top: -250px;
+	top: -327px;
 }
 
 .video-apresentacao{
@@ -137,8 +145,8 @@ h3{
 	text-align: left;
 	line-height: 1.07em;
 	letter-spacing: 0em;
-	left: 48%;
-	top: -255px;
+	left: 52%;
+	top: -338px;
 	width: 25%;
 }
 
@@ -153,13 +161,13 @@ h3{
 	text-align: left;
 	line-height: 1.07em;
 	letter-spacing: 0em;
-	left: 48%;
-	top: -200px;
+	left: 52%;
+	top: -290px;
 	width: 25%;
 }
 
 
-.footer{
+.caixa-transparente{
 	width: 370px;
 	height: 275px;
 	background-color: black;
@@ -168,55 +176,75 @@ h3{
 	filter: alpha(opacity=65);
 	position: relative;
 	border-radius: 25px;
-	left: 63.5%;
-	top: 670px;
-	margin: 5px;
+	left:73%;
+	top: 556px;
+	margin: -110px;
+	z-index: 3;
 }
 
 .contato{
 	font-size: 1.88em;
-	color: #ffffff;
+	color: #fff;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.61em;
 	letter-spacing: 0em;
 	position: absolute;
-	color: blue;
 	left: 74%;
-	top: 730px;
+	top: 645px;
+	z-index: 4;
+
 }
 
 .email{
 	font-size: 1.25em;
-	color: blue;
+	color: #fff;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.07em;
 	letter-spacing: 0em;
 	position: absolute;
-	left: 74%;
-	top: 790px;
-	margin: 28px;
+	left: 68%;
+	top: 700px;
+	z-index: 4;
+}
+.telefone{
+	font-size: 1.10em;
+	color: #fff;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	position: absolute;
+	left: 68%;
+	top: 740px;
+	z-index: 4;
 }
 
 .logo2{
-	width: 50px;
-	left: 50px;
+	width: 65px;
 	border-radius: 50%;
 	position: relative;
-	left: 20%;
-	top: -10px;
-	margin: 5px;
+	left:10%;
+	top: 150px;
+	margin: 12px;
+	z-index: 5;
 }
 
 .fundo{
 	width: 100%;
 	height: 100%;
 }
+.logofixa2 {	
+	margin: 3%;
+	width: 32%;
+	height: 130px;	
+	position: relative;
+	left: 7%;
+	top: 240px;
+}
 
 footer{
 	position: relative;
 	margin-top: -300px;
 }
-
-
