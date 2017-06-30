@@ -42,14 +42,6 @@ body {
  	border-style: solid;
     border-width: 1px;
 } 
-@media (min-width:425px){
-	.ul{
-		position: relative;
-		top: 29px;
-		margin: 1.25%;
-
-	}
-}
 
 .inicio {
 	display: none;
@@ -81,7 +73,7 @@ body {
 	position: relative;
 	left: 5%;
 }
-@media (min-width:425px){
+@media (min-width:768px){
 	.logo{
 		display: flex;
 		justify-content: center;
@@ -203,7 +195,7 @@ h3 {
 	position: relative;
 	border-radius: 25px;
 	left:73%;
-	top: 500px;
+	top: 555px;
 	margin: -110px;
 	z-index: 3;
 }
@@ -217,7 +209,7 @@ h3 {
 	letter-spacing: 0em;
 	position: absolute;
 	left: 74%;
-	top: 590px;
+	top: 630px;
 	z-index: 4;
 }
 
@@ -230,7 +222,7 @@ h3 {
 	letter-spacing: 0em;
 	position: absolute;
 	left: 68.5%;
-	top: 650px;
+	top: 690px;
 	z-index: 4;
 }
 
@@ -243,7 +235,7 @@ h3 {
 	letter-spacing: 0em;
 	position: absolute;
 	left: 68.5%;
-	top: 685px;
+	top: 725px;
 	z-index: 4;
 }
 
@@ -251,8 +243,8 @@ h3 {
 	width: 64px;
 	border-radius: 50%;
 	position: relative;
-	left:29%;
-	top: 620px;
+	left:28.5%;
+	top: 675px;
 	margin: 12px;
 	z-index: 5;
 }
@@ -276,6 +268,14 @@ footer{
 	margin-top:  -400px;
 }
 
-
-
+@media (max-width:425px){
+	nav{
+		left: -3%;
+	
+	}
+	li{
+		width: 80px;
+		margin: 0;
+	}
+}
 
