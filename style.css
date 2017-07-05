@@ -109,10 +109,10 @@ h2 {
 
 .ação {
 	position: relative;
-	margin-top: 10%;
+	margin-top: 2%;
 }
 
-h3 {
+.ensaio {
 	font-size: 1.56em;
 	color: #95989a;
 	font-style: normal;
@@ -120,7 +120,7 @@ h3 {
 	line-height: 1.34em;
 	letter-spacing: 0em;
 	position: absolute;
-	top: 20%;
+	top: -10%;
 	left: 23%;	
 }
 
@@ -184,69 +184,9 @@ h3 {
 	width: 25%;
 }
 
-
-.caixa-transparente {
-	width: 370px;
-	height: 275px;
-	background-color: black;
-	opacity:0.65;
-	-moz-opacity: 0.65;
-	filter: alpha(opacity=65);
+footer{
 	position: relative;
-	border-radius: 25px;
-	left:73%;
-	top: 555px;
-	margin: -110px;
-	z-index: 3;
-}
-
-.contato {
-	font-size: 1.88em;
-	color: #fff;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.61em;
-	letter-spacing: 0em;
-	position: absolute;
-	left: 74%;
-	top: 630px;
-	z-index: 4;
-}
-
-.email {
-	font-size: 1.25em;
-	color: #fff;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	position: absolute;
-	left: 68.5%;
-	top: 690px;
-	z-index: 4;
-}
-
-.telefone {
-	font-size: 1.10em;
-	color: #fff;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	position: absolute;
-	left: 68.5%;
-	top: 725px;
-	z-index: 4;
-}
-
-.logo2 {
-	width: 64px;
-	border-radius: 50%;
-	position: relative;
-	left:28.5%;
-	top: 675px;
-	margin: 12px;
-	z-index: 5;
+	margin-top:  -200px;
 }
 
 .fundo {
@@ -260,22 +200,103 @@ h3 {
 	height: 115px;	
 	position: relative;
 	left: 3%;
-	top: 250px;
+	top: -900px;
 }
 
-footer{
+.caixa-transparente {
+	width: 370px;
+	height: 275px;
+	background-color: black;
+	opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
 	position: relative;
-	margin-top:  -400px;
+	border-radius: 25px;
+	left:73%;
+	top: -560px;
+	margin: -110px;
+	z-index: 3;
 }
 
-@media (max-width:425px){
+.contato {
+	font-size: 1.88em;
+	color: #fff;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+	position: absolute;
+	left: 34%;
+	top: -10px;
+	z-index: 4;
+}
+
+.email {
+	font-size: 1.25em;
+	color: #fff;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	position: absolute;
+	left: 14%;
+	top: 60px;
+	z-index: 4;
+}
+
+.telefone {
+	font-size: 1.10em;
+	color: #fff;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	position: absolute;
+	left: 14%;
+	top: 100px;
+	z-index: 4;
+}
+
+.logo2 {
+	width: 64px;
+	border-radius: 50%;
+	position: relative;
+	left:10%;
+	top: 150px;
+	margin: 12px;
+	z-index: 5;
+}
+
+
+
+
+@media (max-width:500px){
+	.contaianer{
+		max-width: 300px;
+	}
 	nav{
 		left: -3%;
 	
 	}
 	li{
-		width: 80px;
+		left: 40px;
+		width: 130px;
 		margin: 0;
+		top: 200px;
+		height: 40px;
+	}
+	.video{
+		width: 800px;
+	}
+	.logo{
+		width: 270px;
+		left: 278px;
+		top: 265px;
+	}
+	.texto{
+		width: 300px;
+		top: 2px;
+		left: 2%;
 	}
 }
 
