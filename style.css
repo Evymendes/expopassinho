@@ -189,16 +189,22 @@ footer div p{
 	line-height: 2em;
 }
 
-picture{
-	position:relative;
-	left: 16%;
+.logofinal{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 60%;
 }
 
-picture img{
-	height: 16%;
-	width: 16%;
-	margin: 3%;
+
+.logo2{
+	width: 80%;
+	height: 80%;
 }
+
 
 @media (max-width:500px){	
 	nav{
@@ -221,8 +227,7 @@ picture img{
 		position: relative;
 		width: 80%;
 		}
-
-
+}
 
 
 
