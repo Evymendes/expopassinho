@@ -64,7 +64,6 @@ main{
 }
 
 #sobre{
-	font-family: sourcesanspro-bold;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -100,6 +99,23 @@ main{
 	flex-wrap: wrap;
 }
 
+.logofixa2{
+	margin: 0;
+	width: 28%;
+	height: 110px;	
+	margin-right: 58.89%;
+}
+
+.texto-ação{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*position: relative;*/
+	top: 80px;
+	color: #95989a;
+	font-size: 1.88em;	
+}
+
 .video-ação1{
 	display: flex;
 	justify-content: flex-start;
@@ -121,21 +137,6 @@ main{
 	font-size: 0.87em;
 	line-height: 1.20em;
 	margin-top:  2%;	
-}
-
-.texto-ação{
-	position: relative;
-	right: 47%;
-	top: 80px;
-	color: #95989a;
-	font-size: 1.88em;	
-}
-
-.logofixa2{
-	margin: 0;
-	width: 28%;
-	height: 110px;	
-	margin-right: 58.89%;
 }
 
 footer{
