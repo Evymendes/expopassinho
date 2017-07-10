@@ -66,6 +66,7 @@ main{
 }
 
 #sobre{
+	font-family: sourcesanspro-bold;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -206,9 +207,9 @@ footer div p{
 }
 
 
-@media (max-width:500px){	
+@media (max-width: 500px){	
 	nav{
-		left: -2%;
+		left: 1%;
 	}
 
 	ul{
@@ -223,14 +224,39 @@ footer div p{
 		width: 800px;
 	}
 
-	.texto{
+	header .logo {
+		top: 40%;
+	    left: 25%;
+	    width: 110%;
+	}
+	#sobre h2{
 		position: relative;
-		width: 80%;
+		left: -30%;
+		margin-top: 30%;
+	}
+
+	#sobre p {
+		width: 120%;
+		position: relative;
+		left: 20%;
 		}
+
+	.logofixa {
+		display: none;
+	}
+
+	.logofixa2{
+		display: none;
+	}
+	.logofixa3 {
+		display: none;
+	}
+	.texto-ação{
+		position: relative;
+		left: 50%;
+		top: 0.5vh;
+	}
 }
-
-
-
 
 
 
