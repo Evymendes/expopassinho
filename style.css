@@ -99,13 +99,6 @@ main{
 	flex-wrap: wrap;
 }
 
-.logofixa2{
-	margin: 0;
-	width: 28%;
-	height: 110px;	
-	margin-right: 58.89%;
-}
-
 .texto-ação{
 	display: flex;
 	justify-content: center;
@@ -149,15 +142,6 @@ footer{
 	background-size: cover;
 	background-repeat:no-repeat;
 	height: 100vh;
-}
-
-.logofixa3{
-	position: absolute;
-	margin: 0;
-	width: 28%;
-	height: 110px;	
-	left: 7.3%;
-	top: 3%;
 }
 
 .conteiner-footer{
