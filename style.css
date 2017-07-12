@@ -46,6 +46,10 @@ header{
 	flex-direction: column;
 }
 
+header iframe {
+	z-index: 2;
+}
+
 header .logo{
 	display: flex;
 	justify-content: center;
@@ -69,10 +73,8 @@ main{
 	align-items: center;
 	flex-direction: column;
 	color: #95989a;
-	font-style: normal;
-	text-align: left;
 	line-height: 1.61em;
-	letter-spacing: 0em;
+	min-height: 100vh;
 }
 
 #sobre h2{
@@ -82,13 +84,16 @@ main{
 #sobre p{
 	width: 35%;
 	font-size: 1.10em;
+	margin: 0.5em;
 }
 
 .logofixa{
 	margin: 0;
 	width: 28%;
 	height: 110px;
-	margin-right: 57.40%;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 #ações{
@@ -133,14 +138,11 @@ main{
 }
 
 footer{
-	position: relative;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	margin-top: 10%;
-	background:url(Fotos/IMG_9511.JPG);
+	background:url(Fotos/IMG_9511.JPG) no-repeat center center;
 	background-size: cover;
-	background-repeat:no-repeat;
 	height: 100vh;
 }
 
