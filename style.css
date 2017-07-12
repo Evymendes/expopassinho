@@ -102,16 +102,17 @@ main{
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin: 5%;
 }
 
 .texto-ação{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*position: relative;*/
-	top: 80px;
+	margin-top: -25%;
 	color: #95989a;
-	font-size: 1.88em;	
+	font-size: 1.88em;
+	padding-left: 63%;
 }
 
 .video-ação1{
@@ -122,6 +123,8 @@ main{
 	flex-wrap: wrap;
 	width: 39%;
 	margin-top: 3%;
+
+
 }
 
 .video-ação1 h3{
