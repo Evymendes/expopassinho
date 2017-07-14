@@ -83,8 +83,12 @@ main{
 
 #sobre p{
 	width: 35%;
-	font-size: 1.10em;
+	font-size: 1.25em;
+	font-style: normal;
 	margin: 0.5em;
+	text-align: left
+	line-height: 1.07em;
+	letter-spacing: 0em;
 }
 
 .logofixa{
@@ -189,14 +193,13 @@ footer div p{
 }
 
 
-@media (max-width: 500px){	
+@media (max-width: 620px){	
 	nav{
 		left: 1%;
 	}
 
 	ul{
-		width: 110%;
-		margin: 0;
+		width: 100%;
 		top: 200%;
 		height: 40%;
 		padding: 4%;
@@ -207,8 +210,7 @@ footer div p{
 	}
 
 	header .logo {
-		position: relative;
-	    width: 100%;
+	    width: 80%;
 	}
 
 	#sobre h2{
@@ -235,5 +237,9 @@ footer div p{
 		position: relative;
 		left: 50%;
 		top: 0.5vh;
+	}
+	.conteiner-footer{
+		width: 70%;
+		height: 50%;
 	}
 }
