@@ -36,7 +36,7 @@ nav ul li {
     border-width: 1px;
     width: 140px;
  	height: 30px;
- 	margin: 3%;
+ 	margin: 5%;
 }
 
 header{
@@ -102,17 +102,14 @@ main{
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin: 5%;
+	padding: 10%;
 }
 
 .texto-ação{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: -25%;
+	margin-top: -30%;
 	color: #95989a;
 	font-size: 1.88em;
-	padding-left: 63%;
+	padding-left: 25%;
 }
 
 .video-ação1{
@@ -122,8 +119,7 @@ main{
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: 39%;
-	margin-top: 3%;
-
+	margin-top: 5%;
 
 }
 
@@ -150,7 +146,6 @@ footer{
 }
 
 .conteiner-footer{
-	position: relative;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -159,8 +154,9 @@ footer{
 	background-color: rgba(0, 0, 0, 0.50);
 	width: 30%;
 	height: 40vh;
-	right: 7.40%;
-	top: 11.10%;
+	position: relative;
+	right: 7%;
+	margin-top: 14%;
 }
 
 footer div h2{	
@@ -241,312 +237,3 @@ footer div p{
 		top: 0.5vh;
 	}
 }
-
-
-
-
-
-
-
-
-/*body {
-	margin: 0;
-	padding: 0;
- }
-
- * {
- 	box-sizing: border-box;
- }
- 
- nav {
- 	display: flex;
- 	justify-content: center;
- 	align-items: center;
- 	position: fixed;
- 	left: 24%; 
- 	z-index: 7;
- 	top: 25px;
- }
-
- ul {
- 	display: flex;
- 	justify-content: center;
- 	align-items: center;
- 	flex-direction: row; 		
- }
-
- li {
- 	width: 142px;
- 	height: 27px;
- 	display: flex;
- 	justify-content: center;
- 	align-items: center;
- 	margin: 3%;
- 	font-size: 0.94em;
- 	color: #00416d;
- 	font-style: normal;
- 	text-align: left;
- 	line-height: 0.8em;
- 	letter-spacing: 0em;
- 	background-color: #fff;
- 	border-radius: 25px;
- 	border-style: solid;
-    border-width: 1px;
-} 
-
-.inicio {
-	display: none;
-}  
-
-.logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	top: 26%;
-	width: 62.37%;
-	left: 16%;
-	z-index: 2;
-}
-
-
- header {
- 	position: flex;
- 	justify-content: center;
- 	align-items: center;
- 	top: 0;
-}
-
-.logofixa {	
-	margin: 3%;
-	width: 28%;
-	height: 110px;	
-	position: relative;
-	left: 5%;
-}
-@media (min-width:768px){
-	.logo{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-}
-
-h2 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row-wrap;
-	font-size: 1.88em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.61em;
-	letter-spacing: 0em;
-	position: relative;
-	top: -60px;
-}
-
-.texto {
-	font-size: 1.25em;
-	color: #95989a;
-	width: 39.76%;
-	margin-left: 32.77%;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;	
-}
-
-.ação {
-	position: relative;
-	margin-top: 2%;
-}
-
-.ensaio {
-	font-size: 1.56em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.34em;
-	letter-spacing: 0em;
-	position: absolute;
-	top: 227%;
-	left: 23%;	
-}
-
-.video-ensaio {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	font-size: 1.25em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	left: 23%;
-	width: 25%;
-	top: -2px; 
-}
-
-.apresentacao {
-	font-size: 1.56em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.34em;
-	letter-spacing: 0em;	
-	left: 52%;
-	top: -320px;
-	position: relative;
-	width: 31.77%;
-	top: -327px;
-}
-
-.video-apresentacao {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	font-size: 1.25em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	left: 52%;
-	top: -338px;
-	width: 25%;
-}
-
-
-.video-apresentacao2 {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	font-size: 1.25em;
-	color: #95989a;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	left: 52%;
-	top: -290px;
-	width: 25%;
-}
-
-.footer {
-	background:url(Fotos/IMG_9511.JPG);
-
-}
-
-.fundo {
-	width: 100%;
-	height: 100%;
-}
-
-.logofixa2 {	
-	margin: 3%;
-	width: 32%;
-	height: 115px;	
-	position: relative;
-	left: 3%;
-	top: -900px;
-}
-
-.caixa-transparente {
-	width: 370px;
-	height: 275px;
-	background-color: black;
-	opacity:0.65;
-	-moz-opacity: 0.65;
-	filter: alpha(opacity=65);
-	position: relative;
-	border-radius: 25px;
-	left:73%;
-	top: -560px;
-	margin: -110px;
-	z-index: 3;
-}
-
-.contato {
-	font-size: 1.88em;
-	color: #fff;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.61em;
-	letter-spacing: 0em;
-	position: absolute;
-	left: 34%;
-	top: -10px;
-	z-index: 4;
-}
-
-.email {
-	font-size: 1.25em;
-	color: #fff;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	position: absolute;
-	left: 14%;
-	top: 60px;
-	z-index: 4;
-}
-
-.telefone {
-	font-size: 1.10em;
-	color: #fff;
-	font-style: normal;
-	text-align: left;
-	line-height: 1.07em;
-	letter-spacing: 0em;
-	position: absolute;
-	left: 14%;
-	top: 100px;
-	z-index: 4;
-}
-
-.logo2 {
-	width: 64px;
-	border-radius: 50%;
-	position: relative;
-	left:10%;
-	top: 150px;
-	margin: 15px;
-	z-index: 5;
-}
-
-
-
-
-@media (max-width:500px){
-	.contaianer{
-		max-width: 300px;
-	}
-	nav{
-		left: -3%;
-	
-	}
-	li{
-		left: 40px;
-		width: 130px;
-		margin: 0;
-		top: 200px;
-		height: 40px;
-	}
-	.video{
-		width: 800px;
-	}
-	.logo{
-		width: 270px;
-		left: 278px;
-		top: 265px;
-	}
-	.texto{
-		width: 300px;
-		top: 2px;
-		left: 2%;
-	}
-}*/
