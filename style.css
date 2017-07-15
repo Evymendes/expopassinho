@@ -6,7 +6,7 @@ body {
 /*
 	consertar o footer
 	consertar o menu
-	consertar as fontes
+	consertar as fontes ok
 */
 
 * {
@@ -18,7 +18,7 @@ body {
  	justify-content: center;
  	align-items: center;
  	position: fixed;
- 	left: 25%; 
+ 	left: 27%; 
  	z-index: 7;
  	top: 2%;	
  }
@@ -47,16 +47,16 @@ nav ul li {
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-	color: #00416d;
 	background-color: #fff;
 	border-radius: 25px;
  	border-style: solid;
     border-width: 1px;
     width: 140px;
  	height: 30px;
- 	margin: 5%;
+ 	margin: 1.68%;
  	font-family: 'Source Sans Pro', sans-serif;
  	font-size: 0.94em;
+	color: #00416d;
  	font-style: normal;
  	text-align: left;
  	line-height: 0.8em;
@@ -91,9 +91,9 @@ header .logo{
 }
 
 @media (max-width: 620px){	
-
 	header .logo {
-	    width: 80%;
+		width: 88.89%;
+	    margin-top: 145px;
 	}
 }
 
@@ -104,13 +104,34 @@ main{
 	flex-direction: column;
 }
 
+
+.logofixa{
+	margin: 0;
+	width: 28%;
+	height: 110px;
+	position: fixed;
+	top: 0;
+	left: 8.93%;
+}
+@media (max-width: 620px){	
+
+	.logofixa {
+		display: none;
+	}
+
+	.logofixa2{
+		display: none;
+	}
+	.logofixa3 {
+		display: none;
+	}
+}
 #sobre{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	color: #95989a;
-	line-height: 1.61em;
 	min-height: 100vh;
 }
 
@@ -131,15 +152,15 @@ main{
 }
 
 #sobre p{
-	width: 35%;
+	width: 39.76%;
 	font-size: 1.25em;
 	font-style: normal;
 	margin: 0.5em;
-	text-align: left
+	text-align: left;
 	line-height: 1.07em;
 	letter-spacing: 0em;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
+	font-weight: 100;
 
 }
 
@@ -149,27 +170,6 @@ main{
 	}
 }
 
-.logofixa{
-	margin: 0;
-	width: 28%;
-	height: 110px;
-	position: fixed;
-	top: 0;
-	left: 0;
-}
-@media (max-width: 620px){	
-
-	.logofixa {
-		display: none;
-	}
-
-	.logofixa2{
-		display: none;
-	}
-	.logofixa3 {
-		display: none;
-	}
-}
 
 #ações{
 	display: flex;
@@ -183,10 +183,15 @@ main{
 .texto-ação{
 	color: #95989a;
 	font-size: 1.88em;
+	font-style: normal;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+	font-family: 'source sans pro', sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin: 0;
 }
 
 @media (max-width: 620px){	
@@ -202,13 +207,14 @@ main{
 	align-items: flex-start;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: 30%;
-	padding: 0.5em;
+	width: 35%;
+	padding: 4%;
 }
 
 .videos {
 	display: flex;
 	justify-content: center;
+	margin: -51px;
 }
 
 
@@ -232,26 +238,26 @@ main{
 
 .video-ação1 h3{
 	color: #95989a;
-	font-size: 1.10em;
+	font-size: 1.40em;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.34em;
+	letter-spacing: 0em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
 }
 
-@media (max-width: 640px) {
-	.video-ação1 h3{
-		font-size: 1.56em;
-		color: #95989a;
-		font-style: normal;
-		text-align: left;
-		line-height: 1.34em;
-		letter-spacing: 0em;
-		}
-}
 
 .video-ação1 p{
-	width: 70%;
 	color: #95989a;
-	font-size: 0.87em;
-	line-height: 1.20em;
-	margin-top:  2%;	
+	font-size: 0.90em;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 100;
+		
 }
 
 footer{
@@ -289,25 +295,58 @@ footer{
 
 footer div h2{	
 	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 1.25em;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	margin: 35px;
+}
+@media (max-width: 620px){	
+	.container-footer h2{
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
 }
 
-footer div p{
-	width: 35%;
+footer div p {
 	color: #fff;
+	font-style: normal;
+	text-align: left;
 	font-weight: 900;
 	margin-right: 25%;
-	font-size: 1.0em;
-	line-height: 2em;
+	font-size: 1.05em;
+	line-height: 1.07em;
+	letter-spacing: 0em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 100;
+	margin: 0px; 
+}
+
+@media (max-width: 620px){	
+	footer div p{
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
 }
 
 .logofinal{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	list-style: none;
+
+}
+
+.logo2{
+	width: 60%;
 	margin: 0;
 	padding: 0;
-	list-style: none;
-	width: 60%;
+
 }
 
 @media (max-width: 620px){	
