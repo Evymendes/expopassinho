@@ -22,6 +22,7 @@ body {
  	z-index: 7;
  	top: 2%;	
  }
+
  nav ul {
  	display: flex;
  	justify-content: center;
@@ -113,6 +114,7 @@ main{
 	top: 0;
 	left: 8.93%;
 }
+
 @media (max-width: 620px){	
 
 	.logofixa {
@@ -198,9 +200,10 @@ main{
 
 	#ações h2 {
 		align-self: flex-start;
-		margin: 4%;
+		 margin: 10%;
 	}
 }
+
 .video-ação1 {
 	display: flex;
 	justify-content: flex-start;
@@ -218,18 +221,16 @@ main{
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 620px) {
 	.videos {
 		flex-direction: column;
 		width: 100%;
 	}
-}
 
 	.video-ação1 iframe {
 		width: 100%;
 	}
 
-@media (max-width: 640px) {
 	.video-ação1 {
 		width: 100%;
 	}
@@ -247,7 +248,11 @@ main{
 	font-weight: 700;
 }
 
-
+@media (max-width: 620px) {
+	.video-ação1 h3 {
+		margin: 0;
+	}
+}
 .video-ação1 p{
 	color: #95989a;
 	font-size: 0.90em;
@@ -286,7 +291,7 @@ footer{
 @media (max-width: 620px){	
 
 	.conteiner-footer{
-		width: 70%;
+		width: 80%;
 		height: 50%;
 		margin: 0;
 		align-items: flex-start;
@@ -305,33 +310,37 @@ footer div h2{
 	margin: 35px;
 }
 @media (max-width: 620px){	
-	.container-footer h2{
-			display: flex;
-			justify-content: flex-end;
-			align-items: flex-end;
+	footer div h2{
+		font-family: 'Source Sans Pro', sans-serif;
+	    font-weight: 600;
+	    font-size: xx-large;
 		}
 }
 
-footer div p {
+	.email,
+	.telefone {
 	color: #fff;
 	font-style: normal;
 	text-align: left;
-	font-weight: 900;
 	margin-right: 25%;
 	font-size: 1.05em;
 	line-height: 1.07em;
 	letter-spacing: 0em;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 100;
-	margin: 0px; 
+	margin: 1%;
 }
 
+
 @media (max-width: 620px){	
-	footer div p{
-			display: flex;
-			justify-content: flex-end;
-			align-items: flex-end;
+	.email{
+		margin: 20px;
+    	font-size: 1.30em;
 		}
+	.telefone{
+		margin: 20px;
+    	font-size: 1.40em;
+	}
 }
 
 .logofinal{
@@ -357,8 +366,7 @@ footer div p {
 		}
 
 	.logo2{
-		width: 80%;
-		height: 80%;
+		width: 65%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
