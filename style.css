@@ -103,6 +103,7 @@ main{
 										header iframe{
 											width: 200%;
 										}
+
 										header .logo {
 											width: 125%;
 										    margin-top: 145px;
@@ -128,6 +129,7 @@ main{
 										.logofixa2{
 											display: none;
 										}
+
 										.logofixa3 {
 											display: none;
 										}
@@ -356,7 +358,7 @@ footer div h2{
 										font-family: 'Source Sans Pro', sans-serif;
 									    font-weight: 600;
 									    font-size: xx-large;
-										}
+									}
 								}
 
 .email,
@@ -379,7 +381,8 @@ footer div h2{
 										margin: 20px;
 
 								    	font-size: 1.30em;
-										}
+									}
+									
 									.telefone{
 										margin: 20px;
 								    	font-size: 1.40em;
