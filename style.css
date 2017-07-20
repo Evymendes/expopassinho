@@ -3,12 +3,6 @@ body {
 	padding: 0;
 }
 
-/*
-	consertar o footer
-	consertar o menu
-	consertar as fontes ok
-*/
-
 * {
  	box-sizing: border-box;
 }
@@ -30,18 +24,18 @@ body {
  	flex-direction: row;
  }
 
-  @media (max-width: 620px){	
-	header nav{
-		left: 1%;
-		width: 90%;
-	}
+										  @media (max-width: 768px){	
+											header nav{
+												left: 5%;
+												width: 90%;
+											}
 
-	nav ul{
-		width: 90%;
-		height: 40%;
-		padding: 3%;
-	}
-}
+											nav ul{
+												width: 90%;
+												height: 50%;
+												padding: 3%;
+											}								
+										}
 
 nav ul li {
 	display: flex; 
@@ -64,11 +58,12 @@ nav ul li {
 	letter-spacing: 0em;
 }
 
-@media (max-width: 620px){	
-	nav ul li {
-		margin: 1%;
-	}
-}
+									@media (max-width: 768px){	
+										nav ul li {
+											margin: 1%;
+											height: 40px;
+										}
+									}
 
 header{
 	display: flex;
@@ -91,12 +86,12 @@ header .logo{
 	z-index: 2;
 }
 
-@media (max-width: 620px){	
-	header .logo {
-		width: 88.89%;
-	    margin-top: 145px;
-	}
-}
+									@media (max-width: 768px){	
+										header .logo {
+											width: 88.89%;
+										    margin-top: 145px;
+										}
+									}
 
 main{
 	display: flex;
@@ -104,7 +99,16 @@ main{
 	align-items: center;
 	flex-direction: column;
 }
-
+									@media (max-width: 385px){
+										header iframe{
+											width: 200%;
+										}
+										header .logo {
+											width: 125%;
+										    margin-top: 145px;
+										    margin-left: 30%;
+										}
+									}
 
 .logofixa{
 	margin: 0;
@@ -115,19 +119,19 @@ main{
 	left: 8.93%;
 }
 
-@media (max-width: 620px){	
+									@media (max-width: 768px){	
 
-	.logofixa {
-		display: none;
-	}
+										.logofixa {
+											display: none;
+										}
 
-	.logofixa2{
-		display: none;
-	}
-	.logofixa3 {
-		display: none;
-	}
-}
+										.logofixa2{
+											display: none;
+										}
+										.logofixa3 {
+											display: none;
+										}
+									}
 #sobre{
 	display: flex;
 	justify-content: center;
@@ -146,12 +150,19 @@ main{
 	font-family: 'source sans pro', sans-serif;
 }
 
-@media (max-width: 620px){	
-	#sobre h2{
-		align-self: flex-start;
-		margin: 6%;
-	}
-}
+									@media (max-width: 768px){	
+										#sobre h2{
+											align-self: flex-start;
+											margin: 0%;
+											margin-left: 5.5%;
+										}
+									}
+
+									@media (max-width: 385px){
+										#sobre h2{
+											margin-top: 33%;
+										}
+									}
 
 #sobre p{
 	width: 39.76%;
@@ -166,11 +177,11 @@ main{
 
 }
 
-@media (max-width: 620px){	
-	#sobre p {
-		width: 90%;
-	}
-}
+									@media (max-width: 768px){	
+										#sobre p {
+											width: 90%;
+										}
+									}
 
 
 #ações{
@@ -196,13 +207,20 @@ main{
 	margin: 0;
 }
 
-@media (max-width: 620px){	
+									@media (max-width: 768px){	
+										#ações h2 {
+											margin: 8%;
+											margin-right: 85%;
+											margin-top: 18%;											
+										}
+									}
 
-	#ações h2 {
-		align-self: flex-start;
-		 margin: 10%;
-	}
-}
+									@media (max-width: 478px){
+										#ações h2{
+											margin-top: 33%;
+											margin-right: 75%;
+										}
+									}
 
 .video-ação1 {
 	display: flex;
@@ -221,20 +239,20 @@ main{
 }
 
 
-@media (max-width: 620px) {
-	.videos {
-		flex-direction: column;
-		width: 100%;
-	}
+								@media (max-width: 768px) {
+									.videos {
+										flex-direction: column;
+										width: 100%;
+									}
 
-	.video-ação1 iframe {
-		width: 100%;
-	}
+									.video-ação1 iframe {
+										width: 100%;
+									}
 
-	.video-ação1 {
-		width: 100%;
-	}
-}
+									.video-ação1 {
+										width: 100%;
+									}
+								}
 
 
 .video-ação1 h3{
@@ -248,11 +266,11 @@ main{
 	font-weight: 700;
 }
 
-@media (max-width: 620px) {
-	.video-ação1 h3 {
-		margin: 0;
-	}
-}
+								@media (max-width: 768px) {
+									.video-ação1 h3 {
+										margin: 0;
+									}
+								}
 .video-ação1 p{
 	color: #95989a;
 	font-size: 0.90em;
@@ -274,6 +292,25 @@ footer{
 	height: 100vh;
 }
 
+								@media (max-width: 768px){
+									footer {
+										background:url(Fotos/IMG_9511.JPG) no-repeat center center;
+										background-size:cover;
+										height: 140vh;
+										width: 100%;
+									}
+								}
+
+								@media (max-width: 385px){
+									footer {
+										background:url(Fotos/IMG_9511.JPG) no-repeat center center;
+										background-size:cover;
+										height: 150vh;
+										width: 150%;
+									}
+								}
+					
+
 .conteiner-footer{
 	display: flex;
 	justify-content: flex-start;
@@ -288,15 +325,20 @@ footer{
 	margin-top: 14%;
 }
 
-@media (max-width: 620px){	
+								@media (max-width: 768px){	
+									.conteiner-footer{
+										width: 80%;
+										height: 50%;
+										margin: 0;
+										align-items: flex-start;
+									}
+								}
 
-	.conteiner-footer{
-		width: 80%;
-		height: 50%;
-		margin: 0;
-		align-items: flex-start;
-	}
-}
+								@media (max-width: 385px){
+									.container-footer{
+										width: 100%
+									}
+								}
 
 footer div h2{	
 	color: #fff;
@@ -309,16 +351,17 @@ footer div h2{
 	letter-spacing: 0em;
 	margin: 35px;
 }
-@media (max-width: 620px){	
-	footer div h2{
-		font-family: 'Source Sans Pro', sans-serif;
-	    font-weight: 600;
-	    font-size: xx-large;
-		}
-}
+								@media (max-width: 768px){	
+									footer div h2{
+										font-family: 'Source Sans Pro', sans-serif;
+									    font-weight: 600;
+									    font-size: xx-large;
+										}
+								}
 
-	.email,
-	.telefone {
+.email,
+.telefone {
+	display: flex;
 	color: #fff;
 	font-style: normal;
 	text-align: left;
@@ -331,16 +374,24 @@ footer div h2{
 	margin: 1%;
 }
 
-@media (max-width: 620px){	
-	.email{
-		margin: 20px;
-    	font-size: 1.30em;
-		}
-	.telefone{
-		margin: 20px;
-    	font-size: 1.40em;
-	}
-}
+								@media (max-width: 768px){	
+									.email{
+										margin: 20px;
+
+								    	font-size: 1.30em;
+										}
+									.telefone{
+										margin: 20px;
+								    	font-size: 1.40em;
+									}
+								}
+
+								@media (max-width: 417px){
+									.email, 
+									.telefone {
+										font-size: medium;
+									}
+								}
 
 .logofinal{
 	display: flex;
@@ -357,17 +408,17 @@ footer div h2{
 
 }
 
-@media (max-width: 620px){	
-	.logofinal{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
+								@media (max-width: 768px){	
+									.logofinal{
+											display: flex;
+											justify-content: center;
+											align-items: center;
+									}
 
-	.logo2{
-		width: 65%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-}
+									.logo2{
+										width: 65%;
+										display: flex;
+										align-items: center;
+										justify-content: center;
+									}
+								}
